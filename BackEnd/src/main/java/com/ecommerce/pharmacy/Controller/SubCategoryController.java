@@ -10,6 +10,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/sub-category")
+@CrossOrigin(origins = "*")
+
 public class SubCategoryController {
     private SubCategoryService subCategoryService;
 

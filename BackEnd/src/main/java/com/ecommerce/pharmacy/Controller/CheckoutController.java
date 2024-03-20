@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/checkout")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class CheckoutController {
     private CheckoutService checkoutService;
 
